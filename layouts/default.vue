@@ -1,8 +1,8 @@
 <template>
   <div class="container px-6 mt-10 md:mt-20 lg:mt-20 mx-auto">
-    <Navbar @show="isDrawerVisible = true" />
+    <Navbar @open="isDrawerOpen = true" />
     <transition name="fade">
-      <Drawer v-if="isDrawerVisible" @hide="isDrawerVisible = false" />
+      <Drawer v-if="isDrawerOpen" @close="isDrawerOpen = false" />
     </transition>
 
     <nuxt />
@@ -20,7 +20,7 @@ export default {
   },
   data() {
     return {
-      isDrawerVisible: false
+      isDrawerOpen: false
     }
   }
 }

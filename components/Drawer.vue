@@ -5,7 +5,7 @@
     >
       <font-awesome-icon
         :icon="['fas', 'times']"
-        @click="$emit('hide')"
+        @click="$emit('close')"
         class="cursor-pointer md:text-xl lg:text-2xl text-white mt-1 mr-1"
       />
     </div>

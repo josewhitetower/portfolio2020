@@ -3,7 +3,7 @@
     <h1 class="md:text-xl lg:text-2xl font-light">José Torreblanca</h1>
     <font-awesome-icon
       :icon="['fas', 'bars']"
-      @click="$emit('show')"
+      @click="$emit('open')"
       class="cursor-pointer md:text-xl lg:text-2xl"
     />
   </nav>
