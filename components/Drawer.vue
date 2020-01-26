@@ -39,8 +39,12 @@ export default {
           name: 'Home'
         },
         {
-          path: '/about',
-          name: 'About'
+          path: '/work',
+          name: 'Work'
+        },
+        {
+          path: '/resume',
+          name: 'Resumè'
         }
       ]
     }
