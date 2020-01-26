@@ -1,5 +1,5 @@
 <template>
-  <div class="container px-6 mt-10 mx-auto">
+  <div class="container px-6 mt-10 md:mt-20 lg:mt-20 mx-auto">
     <Navbar />
     <nuxt />
   </div>
