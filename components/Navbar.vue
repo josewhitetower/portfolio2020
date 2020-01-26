@@ -1,9 +1,10 @@
 <template>
-  <nav class="Navbar justify-between flex items-center">
-    <span class="md:text-xl lg:text-xl font-light">José Torreblanca</span>
+  <nav class="Navbar justify-between flex items-center  text-gray-900">
+    <h1 class="md:text-xl lg:text-xl font-light">José Torreblanca</h1>
     <font-awesome-icon
       :icon="['fas', 'bars']"
-      class="cursor-pointer md:text-xl lg:text-xl"
+      @click="$emit('show')"
+      class="cursor-pointer md:text-xl lg:text-2xl"
     />
   </nav>
 </template>
