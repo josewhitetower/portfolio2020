@@ -1,6 +1,6 @@
 <template>
   <div class="container px-6 mt-10 md:mt-20 lg:mt-20 mx-auto">
-    <Navbar @open="isDrawerOpen = true" />
+    <Header @open="isDrawerOpen = true" />
     <transition name="fade">
       <Drawer v-if="isDrawerOpen" @close="isDrawerOpen = false" />
     </transition>
@@ -11,12 +11,12 @@
 
 <script>
 import Drawer from '../components/Drawer'
-import Navbar from '../components/Navbar'
+import Header from '../components/Header'
 
 export default {
   components: {
     Drawer,
-    Navbar
+    Header
   },
   data() {
     return {
