@@ -14,7 +14,7 @@
         <li
           v-for="route in routes"
           :key="route.path"
-          class="text-4xl mb-10 text-gray-600 hover:text-white"
+          class="text-xl md:text-2xl lg:text-4xl mb-10 text-gray-600 hover:text-white"
         >
           <nuxt-link
             :to="route.path"
