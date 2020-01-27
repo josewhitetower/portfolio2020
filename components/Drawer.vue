@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-900 inset-0 fixed text-white ">
+  <div class="bg-gray-900 inset-0 fixed text-white">
     <div
       class="container flex justify-end px-6 mt-10 md:mt-20 lg:mt-20 mx-auto"
     >
@@ -53,6 +53,13 @@ export default {
     '$route.path'() {
       this.$emit('close')
     }
+  },
+  mounted() {
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        this.$emit('close')
+      }
+    })
   }
 }
 </script>
