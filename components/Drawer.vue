@@ -55,6 +55,10 @@ export default {
         {
           path: '/resume',
           name: 'Resumè'
+        },
+        {
+          path: '/contact',
+          name: 'Contact'
         }
       ]
     }
