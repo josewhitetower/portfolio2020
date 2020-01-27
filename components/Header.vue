@@ -1,5 +1,5 @@
 <template>
-  <header class="Header justify-between flex items-center  text-gray-900">
+  <header class="font-sans justify-between flex items-center  text-gray-900">
     <nuxt-link exact to="/">
       <h1 class="md:text-xl lg:text-2xl font-light">José Torreblanca</h1>
     </nuxt-link>
@@ -15,8 +15,4 @@
 export default {}
 </script>
 
-<style>
-.Header {
-  font-family: 'Open Sans', sans-serif;
-}
-</style>
+<style></style>

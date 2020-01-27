@@ -1,16 +1,21 @@
 <template>
   <div class="bg-gray-900 inset-0 fixed text-white">
     <div
-      class="container flex justify-end px-6 mt-10 md:mt-20 lg:mt-20 mx-auto"
+      class="container flex justify-between px-6 mt-10 md:mt-20 lg:mt-20 mx-auto"
     >
+      <nuxt-link v-if="$route.path !== '/'" exact to="/">
+        <h1 class="font-sans md:text-xl lg:text-2xl font-light">
+          José Torreblanca
+        </h1>
+      </nuxt-link>
       <font-awesome-icon
         :icon="['fas', 'times']"
         @click="$emit('close')"
-        class="cursor-pointer md:text-xl lg:text-2xl mt-1 mr-1"
+        class="cursor-pointer md:text-xl lg:text-2xl mt-1 mr-1 ml-auto"
       />
     </div>
     <nav
-      class="Navigation flex flex-col items-center justify-center lg:mt-40 md:mt-32 mt-20"
+      class="font-sans flex flex-col items-center justify-center lg:mt-40 md:mt-32 mt-20"
     >
       <transition name="slide">
         <ul v-if="visible">
@@ -71,10 +76,6 @@ export default {
 </script>
 
 <style>
-.Navigation {
-  font-family: 'Open Sans', sans-serif;
-}
-
 .slide-enter-active,
 .slide-leave-active {
   transition: all 0.2s ease-in-out 0.2s;
