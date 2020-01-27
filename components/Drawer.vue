@@ -69,12 +69,18 @@ export default {
     }
   },
   mounted() {
+    window.addEventListener('keydown', this.onKeyDown)
     this.visible = true
-    window.addEventListener('keydown', (e) => {
+  },
+  destroyed() {
+    window.removeEventListener('keydown', this.onKeyDown)
+  },
+  methods: {
+    onKeyDown(e) {
       if (e.key === 'Escape') {
         this.$emit('close')
       }
-    })
+    }
   }
 }
 </script>
