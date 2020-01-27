@@ -9,21 +9,25 @@
         class="cursor-pointer md:text-xl lg:text-2xl mt-1 mr-1"
       />
     </div>
-    <nav class="Navigation mt-40 flex flex-col items-center justify-center">
-      <ul>
-        <li
-          v-for="route in routes"
-          :key="route.path"
-          class="text-xl md:text-2xl lg:text-4xl mb-10 text-gray-600 hover:text-white"
-        >
-          <nuxt-link
-            :to="route.path"
-            :exact="route.exact"
-            active-class="text-white"
-            >{{ route.name }}</nuxt-link
+    <nav
+      class="Navigation flex flex-col items-center justify-center lg:mt-40 md:mt-32 mt-20"
+    >
+      <transition name="slide">
+        <ul v-if="visible">
+          <li
+            v-for="route in routes"
+            :key="route.path"
+            class="text-xl md:text-2xl lg:text-4xl mb-10 text-gray-600 hover:text-white"
           >
-        </li>
-      </ul>
+            <nuxt-link
+              :to="route.path"
+              :exact="route.exact"
+              active-class="text-white"
+              >{{ route.name }}</nuxt-link
+            >
+          </li>
+        </ul>
+      </transition>
     </nav>
   </div>
 </template>
@@ -32,6 +36,7 @@
 export default {
   data() {
     return {
+      visible: false,
       routes: [
         {
           path: '/',
@@ -55,6 +60,7 @@ export default {
     }
   },
   mounted() {
+    this.visible = true
     window.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
         this.$emit('close')
@@ -67,5 +73,14 @@ export default {
 <style>
 .Navigation {
   font-family: 'Open Sans', sans-serif;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.2s ease-in-out 0.2s;
+}
+.slide-enter, .slide-leave-to /* .slide-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  transform: translateY(-10px);
 }
 </style>
