@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-900 inset-0 fixed text-white">
+  <aside class="bg-gray-900 inset-0 fixed text-white">
     <div
       class="container flex justify-between px-6 mt-10 md:mt-20 lg:mt-20 mx-auto"
     >
@@ -34,7 +34,7 @@
         </ul>
       </transition>
     </nav>
-  </div>
+  </aside>
 </template>
 
 <script>
