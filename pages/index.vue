@@ -1,9 +1,17 @@
 <template>
-  <div class></div>
+  <div class>
+    <Main />
+  </div>
 </template>
 
 <script>
-export default {}
+import Main from '../components/Main'
+
+export default {
+  components: {
+    Main
+  }
+}
 </script>
 
 <style>

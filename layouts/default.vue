@@ -4,7 +4,6 @@
     <transition name="fade">
       <Drawer v-if="isDrawerOpen" @close="isDrawerOpen = false" />
     </transition>
-
     <nuxt />
   </div>
 </template>
