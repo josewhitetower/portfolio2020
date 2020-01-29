@@ -56,7 +56,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['~assets/css/tailwind.css'],
+  css: [],
   /*
    ** Plugins to load before mounting the App
    */
@@ -109,11 +109,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    postcss: {
-      plugins: {
-        tailwindcss: path.resolve(__dirname, './tailwind.config.js')
-      }
-    },
     extend(config, ctx) {}
   }
 }
