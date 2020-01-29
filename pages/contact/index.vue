@@ -1,9 +1,13 @@
-<template> <h1>contact</h1></template>
+<template>
+  <h1>contact</h1>
+</template>
 
 <script>
 export default {
-  data() {
-    return {}
+  head() {
+    return {
+      title: 'Contact'
+    }
   }
 }
 </script>
