@@ -1,4 +1,3 @@
-import path from 'path'
 export default {
   mode: 'universal',
   /*
@@ -42,11 +41,11 @@ export default {
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Bangers&display=swap'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css'
       }
+      // {
+      //   rel: 'stylesheet',
+      //   href: 'https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css'
+      // }
     ]
   },
   /*
@@ -56,7 +55,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['~assets/css/tailwind.css'],
   /*
    ** Plugins to load before mounting the App
    */
