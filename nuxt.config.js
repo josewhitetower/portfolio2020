@@ -43,6 +43,10 @@ export default {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Bangers&display=swap'
       }
+      {
+        rel: 'stylesheet',
+        href: 'https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css'
+      }
     ]
   },
   /*
