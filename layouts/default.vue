@@ -1,8 +1,12 @@
 <template>
   <div class="container px-6 mt-10 md:mt-20 lg:mt-20 mx-auto">
-    <Header @open="isDrawerOpen = true" />
+    <Header @open="isDrawerOpen = true" :routes="routes" />
     <transition name="fade">
-      <Drawer v-if="isDrawerOpen" @close="isDrawerOpen = false" />
+      <Drawer
+        v-if="isDrawerOpen"
+        @close="isDrawerOpen = false"
+        :routes="routes"
+      />
     </transition>
     <nuxt />
   </div>
@@ -11,6 +15,7 @@
 <script>
 import Drawer from '../components/Drawer'
 import Header from '../components/Header'
+import routes from '../routes'
 
 export default {
   components: {
@@ -19,7 +24,8 @@ export default {
   },
   data() {
     return {
-      isDrawerOpen: false
+      isDrawerOpen: false,
+      routes
     }
   }
 }

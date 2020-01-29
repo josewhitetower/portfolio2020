@@ -39,28 +39,10 @@
 
 <script>
 export default {
+  props: { routes: { type: Array, default: () => [] } },
   data() {
     return {
-      visible: false,
-      routes: [
-        {
-          path: '/',
-          exact: true,
-          name: 'Home'
-        },
-        {
-          path: '/work',
-          name: 'Work'
-        },
-        {
-          path: '/resume',
-          name: 'Resumè'
-        },
-        {
-          path: '/contact',
-          name: 'Contact'
-        }
-      ]
+      visible: false
     }
   },
   watch: {
