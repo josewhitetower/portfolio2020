@@ -39,7 +39,7 @@ export default {
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
 }
-svg:not(:root).svg-inline--fa {
+/* svg:not(:root).svg-inline--fa {
   overflow: visible;
 }
 
@@ -531,5 +531,5 @@ svg:not(:root).svg-inline--fa {
 
 .fad.fa-inverse {
   color: #fff;
-}
+} */
 </style>

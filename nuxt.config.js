@@ -1,3 +1,4 @@
+import path from 'path'
 export default {
   mode: 'universal',
   /*
@@ -42,10 +43,6 @@ export default {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Bangers&display=swap'
       }
-      // {
-      //   rel: 'stylesheet',
-      //   href: 'https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css'
-      // }
     ]
   },
   /*
@@ -55,7 +52,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['~assets/css/tailwind.css'],
+  css: ['@/assets/css/tailwind.css'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -66,7 +63,7 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
+    // Doc: https://github.com/nuxt-commmunity/nuxt-tailwindcss
     '@nuxtjs/tailwindcss'
   ],
   /*
@@ -108,6 +105,11 @@ export default {
     /*
      ** You can extend webpack config here
      */
+    postcss: {
+      plugins: {
+        tailwindcss: path.resolve(__dirname, './tailwind.config.js')
+      }
+    },
     extend(config, ctx) {}
   }
 }
