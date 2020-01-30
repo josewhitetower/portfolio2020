@@ -1,5 +1,5 @@
 # porfolio
-[![Build Status](https://travis-ci.com/josewhitetower/netlify-cicd.svg?branch=master)](https://travis-ci.com/josewhitetower/netlify-cicd)
+[![Build Status](https://travis-ci.com/josewhitetower/portfolio2020.svg?branch=master)](https://travis-ci.com/josewhitetower/portfolio2020) 
 
 > Jose Torreblanca: Front End Developer
 
