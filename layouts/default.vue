@@ -7,8 +7,8 @@
         @close="isDrawerOpen = false"
         :routes="routes"
       />
+      <nuxt />
     </transition>
-    <nuxt />
   </div>
 </template>
 
