@@ -15,9 +15,8 @@
         natus sunt velit atque cumque facere repellendus quo suscipit!
       </p>
       <form
-        ref="form"
         name="contactme"
-        action="/contact"
+        action="/thanks"
         method="post"
         netlify
         netlify-honeypot="bot-field"
@@ -44,27 +43,13 @@
           placeholder="Hey José...."
           class="border border-gray-400 w-full p-2 rounded h-48 mb-4"
         ></textarea>
-        <ul>
-          <li v-for="file in uploadFiles" :key="file.name">
-            <span>{{ file.name }}</span>
-            <span @click="onRemoveFile">x</span>
-          </li>
-        </ul>
         <input
           ref="upload"
-          @change="onChange"
-          multiple
           type="file"
           name="file"
           class="hidden"
           tabindex="-1"
         />
-        <span
-          @click="() => $refs.upload.click()"
-          class="text-blue-600 inline-block mb-4 cursor-pointer"
-          tabindex="0"
-          >Attach files</span
-        >
         <button
           type="submit"
           value="Send message"
@@ -82,22 +67,6 @@ export default {
   head() {
     return {
       title: 'Contact'
-    }
-  },
-  data: () => ({
-    uploadFiles: []
-  }),
-  methods: {
-    onChange(e) {
-      const files = [...e.target.files].map((file) => {
-        return {
-          name: file.name
-        }
-      })
-      this.uploadFiles = [...files]
-    },
-    onRemoveFile(e) {
-      console.dir(this.$refs.upload.files)
     }
   }
 }
