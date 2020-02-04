@@ -62,7 +62,7 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-    'nuxt-purgecss',
+    // 'nuxt-purgecss',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
@@ -99,7 +99,7 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extractCSS: true,
+    // extractCSS: true,
     analyze: true,
     postcss: {
       plugins: {
