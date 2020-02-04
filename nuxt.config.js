@@ -62,11 +62,13 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
+    'nuxt-purgecss',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
+
     // 'nuxt-fontawesome'
     // font awesome
     [
@@ -75,12 +77,12 @@ export default {
         imports: [
           {
             set: '@fortawesome/free-solid-svg-icons',
-            icons: ['fas']
-          },
-          {
-            set: '@fortawesome/free-brands-svg-icons',
-            icons: ['fab']
+            icons: ['fasTime', 'fasBars']
           }
+          // {
+          //   set: '@fortawesome/free-brands-svg-icons',
+          //   icons: ['fab']
+          // }
         ]
       }
     ]
@@ -97,6 +99,8 @@ export default {
     /*
      ** You can extend webpack config here
      */
+    extractCSS: true,
+    analyze: true,
     postcss: {
       plugins: {
         tailwindcss: path.resolve(__dirname, './tailwind.config.js')
