@@ -23,8 +23,8 @@
           rel="noopener noreferrer nofollow"
           title="Spiegel Techlab"
           >Spiegel Techlab</a
-        >, where I help to create web solutions. On my free time I'm usually
-        learning new things I can incorporate to
+        >, where I help to create web solutions, and constantly learning new
+        things I can incorporate to
         <nuxt-link
           to="/toolbox"
           title="Toolbox"
