@@ -14,8 +14,24 @@
       <p
         class="text-gray-700 font-sans md:px-6 lg:px-6 mt-4 lg:text-2xl md:text-2xl text-lg leading-loose"
       >
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore eos
-        natus sunt velit atque cumque facere repellendus quo suscipit!
+        I am a Frontend Developer living in Hamburg, Germany. Currently enjoying
+        working at
+        <a
+          class="font-semibold border-b hover:border-gray-900"
+          href="https://www.spiegel-techlab.de"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          title="Spiegel Techlab"
+          >Spiegel Techlab</a
+        >, where I help to create web solutions. On my free time I'm usually
+        learning new things I can incorporate to
+        <nuxt-link
+          to="/toolbox"
+          title="Toolbox"
+          class="font-semibold border-b hover:border-gray-900"
+          >my toolbox</nuxt-link
+        >
+        .
       </p>
     </div>
   </main>

@@ -13,6 +13,10 @@ export default [
     name: 'Resumè'
   },
   {
+    path: '/toolbox',
+    name: 'Toolbox'
+  },
+  {
     path: '/contact',
     name: 'Contact'
   }
