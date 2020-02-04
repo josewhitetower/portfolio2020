@@ -34,14 +34,6 @@ export default {
         type: 'image/png',
         href: '/favicon-16x16.png',
         sizes: '16x16'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Open+Sans&display=swap'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Bangers&display=swap'
       }
     ]
   },
@@ -52,7 +44,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['@/assets/css/tailwind.css'],
+  css: ['@/assets/css/tailwind.css', '@/assets/css/fonts.css'],
   /*
    ** Plugins to load before mounting the App
    */

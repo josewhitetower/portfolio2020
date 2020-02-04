@@ -7,6 +7,8 @@
         @close="isDrawerOpen = false"
         :routes="routes"
       />
+    </transition>
+    <transition name="fade">
       <nuxt />
     </transition>
   </div>
@@ -22,6 +24,7 @@ export default {
     Drawer,
     Header
   },
+
   data() {
     return {
       isDrawerOpen: false,
