@@ -87,9 +87,9 @@ export default {
       }
     ]
   ],
-  purgeCSS: {
-    whitelistPatterns: [/(^|\.)fa-/, /-fa($|\.)/]
-  },
+  // purgeCSS: {
+  //   whitelistPatterns: [/(^|\.)fa-/, /-fa($|\.)/]
+  // },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
