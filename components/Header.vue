@@ -32,7 +32,10 @@ export default {
       return this.isHome ? 'text-gray-900' : 'text-gray-600'
     },
     routeName() {
-      return this.routes.find((route) => route.path === this.$route.path).name
+      return (
+        this.routes &&
+        this.routes.find((route) => route.path === this.$route.path).name
+      )
     }
   }
 }
