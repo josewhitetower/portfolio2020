@@ -1,4 +1,3 @@
-import path from 'path'
 export default {
   mode: 'universal',
   /*
@@ -87,9 +86,6 @@ export default {
       }
     ]
   ],
-  // purgeCSS: {
-  //   whitelistPatterns: [/(^|\.)fa-/, /-fa($|\.)/]
-  // },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
@@ -102,13 +98,17 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extractCSS: true,
+    // extractCSS: true,
     analyze: true,
     postcss: {
       plugins: {
-        tailwindcss: path.resolve(__dirname, './tailwind.config.js')
+        tailwindcss: './tailwind.config.js'
       }
     },
     extend(config, ctx) {}
+  },
+  purgeCSS: {
+    mode: 'postcss',
+    whitelistPatterns: [/(^|\.)fa-/, /-fa($|\.)/]
   }
 }
