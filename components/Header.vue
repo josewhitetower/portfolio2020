@@ -27,7 +27,7 @@ import routes from '../routes'
 export default {
   data() {
     return {
-      routes
+      routes: null
     }
   },
   computed: {
@@ -41,10 +41,8 @@ export default {
       return this.routes.find((route) => route.path === this.$route.path).name
     }
   },
-  asyncData() {
-    return {
-      routes
-    }
+  created() {
+    this.routes = routes
   }
 }
 </script>
