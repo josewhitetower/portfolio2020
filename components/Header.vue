@@ -8,7 +8,7 @@
       </nuxt-link>
       <div v-if="!isHome" class="md:text-xl lg:text-2xl font-light">
         <span :class="homeFontColor" class="ml-4 mr-2">/</span>
-        <span>{{ routeNameddd }}</span>
+        <span>{{ routeName }}</span>
       </div>
     </div>
     <font-awesome-icon
@@ -31,11 +31,10 @@ export default {
     homeFontColor() {
       return this.isHome ? 'text-gray-900' : 'text-gray-600'
     },
-    routeNameddd() {
-      return (
-        this.routes &&
-        this.routes.find((route) => route.path === this.$route.path).name
-      )
+    routeName() {
+      const route = this.routes.find((route) => route.path === this.$route.path)
+
+      return route && route.name
     }
   }
 }
