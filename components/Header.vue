@@ -6,7 +6,7 @@
           José Torreblanca
         </h1>
       </nuxt-link>
-      <div v-show="!isHome" class="md:text-xl lg:text-2xl font-light">
+      <div v-if="!isHome" class="md:text-xl lg:text-2xl font-light">
         <span :class="homeFontColor" class="ml-4 mr-2">/</span>
         <span>{{ routeName }}</span>
       </div>
@@ -22,8 +22,14 @@
 </template>
 
 <script>
+import routes from '../routes'
+
 export default {
-  props: { routes: { type: Array, default: () => [] } },
+  data() {
+    return {
+      routes
+    }
+  },
   computed: {
     isHome() {
       return this.$route.path === '/'
