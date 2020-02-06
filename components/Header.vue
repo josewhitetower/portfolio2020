@@ -22,14 +22,8 @@
 </template>
 
 <script>
-import routes from '../routes'
-
 export default {
-  data() {
-    return {
-      routes: null
-    }
-  },
+  props: { routes: { type: Array, default: () => [] } },
   computed: {
     isHome() {
       return this.$route.path === '/'
@@ -38,11 +32,10 @@ export default {
       return this.isHome ? 'text-gray-900' : 'text-gray-600'
     },
     routeName() {
-      return this.routes.find((route) => route.path === this.$route.path).name
+      return this.routes.find(
+        (route) => route.path === this.$route.matched[0].path
+      ).name
     }
-  },
-  created() {
-    this.routes = routes
   }
 }
 </script>

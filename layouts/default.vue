@@ -1,6 +1,6 @@
 <template>
   <div class="container px-6 mt-10 md:mt-20 lg:mt-20 mx-auto">
-    <Header @open="isDrawerOpen = true" />
+    <Header @open="isDrawerOpen = true" :routes="routes" />
     <transition name="fade">
       <Drawer
         v-if="isDrawerOpen"
