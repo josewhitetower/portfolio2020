@@ -6,7 +6,7 @@
           José Torreblanca
         </h1>
       </nuxt-link>
-      <div v-if="!isHome" class="md:text-xl lg:text-2xl font-light">
+      <div v-show="!isHome" class="md:text-xl lg:text-2xl font-light">
         <span :class="homeFontColor" class="ml-4 mr-2">/</span>
         <span>{{ routeName }}</span>
       </div>
@@ -32,9 +32,7 @@ export default {
       return this.isHome ? 'text-gray-900' : 'text-gray-600'
     },
     routeName() {
-      const route = this.routes.find((route) => route.path === this.$route.path)
-
-      return route && route.name
+      return this.routes.find((route) => route.path === this.$route.path).name
     }
   }
 }
