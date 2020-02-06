@@ -4,7 +4,7 @@
       class="container flex justify-between px-6 mt-10 md:mt-20 lg:mt-20 mx-auto"
     >
       <nuxt-link v-if="$route.path !== '/'" exact to="/">
-        <h1 class="font-sans md:text-xl lg:text-2xl font-light">
+        <h1 class="font-sans md:text-xl lg:text-2xl ">
           José Torreblanca
         </h1>
       </nuxt-link>
