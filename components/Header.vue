@@ -40,6 +40,11 @@ export default {
     routeName() {
       return this.routes.find((route) => route.path === this.$route.path).name
     }
+  },
+  asyncData() {
+    return {
+      routes
+    }
   }
 }
 </script>
