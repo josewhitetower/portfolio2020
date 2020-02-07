@@ -1,7 +1,7 @@
 <template>
   <header
     :class="isScrolled"
-    class="bg-white container fixed left-0 mx-auto pb-5 pt-10 px-6 right-0 text-gray-900 top-0 z-10"
+    class="bg-white container fixed left-0 mx-auto pb-5 px-6 right-0 text-gray-900 top-0 z-10 mt-10 md:mt-20 lg:mt-20"
   >
     <div class="flex font-sans items-center justify-between">
       <div class="flex items-center">
