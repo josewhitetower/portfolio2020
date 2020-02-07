@@ -1,29 +1,41 @@
 <template>
-  <header class="font-sans justify-between flex items-center text-gray-900">
-    <div class="flex items-center">
-      <nuxt-link exact to="/">
-        <h1 :class="homeFontColor" class="md:text-xl lg:text-2xl ">
-          José Torreblanca
-        </h1>
-      </nuxt-link>
-      <div v-if="!isHome" class="md:text-xl lg:text-2xl ">
-        <span :class="homeFontColor" class="ml-4 mr-2">/</span>
-        <span>{{ routeName }}</span>
+  <header
+    :class="isScrolled"
+    class="bg-white container fixed left-0 mx-auto pb-5 pt-10 px-6 right-0 text-gray-900 top-0 z-10"
+  >
+    <div class="flex font-sans items-center justify-between">
+      <div class="flex items-center">
+        <nuxt-link exact to="/">
+          <h1 :class="homeFontColor" class="md:text-xl lg:text-2xl ">
+            José Torreblanca
+          </h1>
+        </nuxt-link>
+        <div v-if="!isHome" class="md:text-xl lg:text-2xl ">
+          <span :class="homeFontColor" class="ml-4 mr-2">/</span>
+          <span>{{ routeName }}</span>
+        </div>
       </div>
+      <font-awesome-icon
+        :icon="['fas', 'bars']"
+        @click="$emit('open')"
+        @keydown.enter="$emit('open')"
+        tabindex="0"
+        class="cursor-pointer md:text-xl lg:text-2xl"
+      />
     </div>
-    <font-awesome-icon
-      :icon="['fas', 'bars']"
-      @click="$emit('open')"
-      @keydown.enter="$emit('open')"
-      tabindex="0"
-      class="cursor-pointer md:text-xl lg:text-2xl"
-    />
   </header>
 </template>
 
 <script>
 export default {
   props: { routes: { type: Array, default: () => [] } },
+  data() {
+    return {
+      view: {
+        isAtTopOfPage: true
+      }
+    }
+  },
   computed: {
     isHome() {
       return this.$route.path === '/'
@@ -35,6 +47,23 @@ export default {
       return this.routes.find(
         (route) => route.path === this.$route.matched[0].path
       ).name
+    },
+    isScrolled() {
+      return !this.view.isAtTopOfPage && 'border-b'
+    }
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  methods: {
+    // the function to call when the user scrolls, added as a method
+    handleScroll() {
+      // when the user scrolls, check the pageYOffset
+      if (window.pageYOffset > 0) {
+        // user is scrolled
+        if (this.view.isAtTopOfPage) this.view.isAtTopOfPage = false
+      } else if (!this.view.isAtTopOfPage) this.view.isAtTopOfPage = true
+      // user is at top of page
     }
   }
 }
