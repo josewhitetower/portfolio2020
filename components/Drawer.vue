@@ -14,9 +14,7 @@
         class="cursor-pointer md:text-xl lg:text-2xl mt-1 mr-1 ml-auto"
       />
     </div>
-    <nav
-      class="font-sans flex flex-col items-center justify-center mt-40 md:mt-56 lg:mt-64"
-    >
+    <nav class="font-sans flex flex-col items-center justify-center mt-40">
       <transition name="slide">
         <ul v-if="visible">
           <li
