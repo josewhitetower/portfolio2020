@@ -6,9 +6,9 @@
     <div class="flex font-sans items-center justify-between">
       <div class="flex items-center">
         <nuxt-link exact to="/">
-          <h1 :class="homeFontColor" class="md:text-xl lg:text-2xl ">
+          <span :class="homeFontColor" class="md:text-xl lg:text-2xl ">
             José Torreblanca
-          </h1>
+          </span>
         </nuxt-link>
         <div v-if="!isHome" class="md:text-xl lg:text-2xl ">
           <span :class="homeFontColor" class="ml-4 mr-2">/</span>
