@@ -15,7 +15,7 @@
       />
     </div>
     <nav
-      class="font-sans flex flex-col items-center justify-center lg:mt-40 md:mt-32 mt-20"
+      class="font-sans flex flex-col items-center justify-center mt-40 md:mt-56 lg:mt-64"
     >
       <transition name="slide">
         <ul v-if="visible">

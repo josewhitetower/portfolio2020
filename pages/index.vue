@@ -1,5 +1,5 @@
 <template>
-  <main class="lg:mt-40 md:mt-32 mt-20">
+  <main class="mt-40 md:mt-48 lg:mt-48">
     <img
       src="~assets/imgs/jose.jpeg"
       alt="Profile picture"
