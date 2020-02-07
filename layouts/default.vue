@@ -12,13 +12,14 @@
       <nuxt />
     </transition>
     <div
-      class="bottom-0 fixed left-0 h-64 flex-col text-gray-900 px-10 hidden lg:flex"
+      class="bottom-0 fixed left-0 h-64 flex-col items-end text-gray-900 px-10 hidden lg:flex"
       style=""
     >
       <a
         v-for="soc in social"
         :key="soc.icon"
         :href="soc.link"
+        class="hover:text-blue-600"
         rel="noopener noreferrer nofollow"
       >
         <font-awesome-icon
