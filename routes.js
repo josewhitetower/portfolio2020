@@ -9,8 +9,8 @@ export default [
     name: 'Toolbox'
   },
   {
-    path: '/work',
-    name: 'Work'
+    path: '/experience',
+    name: 'Experience'
   },
   {
     path: '/resume',

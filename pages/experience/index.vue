@@ -1,4 +1,6 @@
-<template> <h1>work</h1> </template>
+<template>
+  <h1>experience</h1>
+</template>
 <script>
 export default {}
 </script>
