@@ -11,6 +11,23 @@
     <transition name="fade">
       <nuxt />
     </transition>
+    <div
+      class="bottom-0 fixed left-0 h-64 flex-col text-gray-900 px-10 hidden lg:flex"
+      style=""
+    >
+      <a
+        v-for="soc in social"
+        :key="soc.icon"
+        :href="soc.link"
+        rel="noopener noreferrer nofollow"
+      >
+        <font-awesome-icon
+          :icon="['fab', `${soc.icon}`]"
+          class="cursor-pointer md:text-xl lg:text-2xl mt-1 mr-1 ml-auto mb-4"
+        />
+      </a>
+      <span class="block border border-gray-600 h-64 self-center "></span>
+    </div>
   </div>
 </template>
 
@@ -18,6 +35,7 @@
 import Drawer from '../components/Drawer'
 import Header from '../components/Header'
 import routes from '../routes'
+import social from '../social'
 
 export default {
   components: {
@@ -28,7 +46,8 @@ export default {
   data() {
     return {
       isDrawerOpen: false,
-      routes
+      routes,
+      social
     }
   }
 }

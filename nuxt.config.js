@@ -77,11 +77,11 @@ export default {
           {
             set: '@fortawesome/free-solid-svg-icons',
             icons: ['faBars', 'faTimes']
+          },
+          {
+            set: '@fortawesome/free-brands-svg-icons',
+            icons: ['faGithub', 'faTwitter', 'faLinkedin', 'faXing']
           }
-          // {
-          //   set: '@fortawesome/free-brands-svg-icons',
-          //   icons: ['fab']
-          // }
         ]
       }
     ]
