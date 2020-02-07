@@ -13,8 +13,8 @@ export default [
     name: 'Professional Experience'
   },
   {
-    path: '/resume',
-    name: 'Resumè'
+    path: '/projects',
+    name: 'Projects'
   },
   {
     path: '/contact',
