@@ -16,7 +16,7 @@
     </div>
     <nav class="font-sans flex flex-col items-center justify-center mt-40">
       <transition name="slide">
-        <ul v-if="visible">
+        <ul v-if="visible" class="flex flex-col items-end">
           <li
             v-for="route in routes"
             :key="route.path"

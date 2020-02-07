@@ -10,7 +10,7 @@ export default [
   },
   {
     path: '/experience',
-    name: 'Experience'
+    name: 'Professional Experience'
   },
   {
     path: '/resume',

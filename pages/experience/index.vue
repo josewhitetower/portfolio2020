@@ -3,7 +3,7 @@
     <div class="lg:flex md:block sm:block">
       <div class="w-2/3 mb-10 text-gray-900 mr-10">
         <h1 class="md:text-3xl lg:text-4xl font-sans font-bang text-2xl mb-2">
-          experience
+          professional experience
         </h1>
         <p class="font-sans tracking-tight mb-6">
           Download a copy of my CV below.
@@ -53,7 +53,7 @@ import experiences from '@/experiences'
 export default {
   head() {
     return {
-      title: 'Experience'
+      title: 'Professional Experience'
     }
   },
   data() {
