@@ -1,3 +1,6 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@tailwind base;
+.tasks a {
+  @apply underline italic;
+}
+@tailwind components;
+@tailwind utilities;
