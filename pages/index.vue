@@ -39,8 +39,8 @@
         >
         for fun that later I can incorporate to my
         <nuxt-link
-          to="/toolbox"
-          title="Toolbox"
+          to="/skills"
+          title="Dev Skills"
           class="font-semibold border-b hover:border-gray-900"
           >my dev skills</nuxt-link
         >.
