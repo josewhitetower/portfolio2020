@@ -36,7 +36,8 @@ export default [
     link: 'mailto:josewhitetower@gmail.com',
     icon: {
       name: 'envelope',
-      prefix: 'fas'
+      prefix: 'fas',
+      target: '_self'
     }
   }
 ]

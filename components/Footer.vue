@@ -7,7 +7,7 @@
       v-for="soc in social"
       :key="soc.link"
       :href="soc.link"
-      :target="soc.title === 'Email' ? '_self' : '_blank'"
+      :target="soc.icon.target ? soc.icon.target : '_blank'"
       class="hover:text-blue-600"
       rel="noopener noreferrer nofollow"
     >
