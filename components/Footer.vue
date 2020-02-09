@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="bg-gray-100 bottom-0 flex lg:py-0 lg:py-0 justify-between left-0 lg:bg-auto lg:bg-transparent lg:fixed lg:right-auto lg:bg-transparent lg:bottom-0 lg:fixed lg:flex-col lg:h-auto lg:items-end lg:right-auto px-10 py-8 right-0 text-gray-900"
+    class="bg-gray-100 bottom-0 flex lg:py-0 lg:py-0 justify-between left-0 lg:bg-transparent lg:fixed lg:right-auto lg:bg-transparent lg:bottom-0 lg:fixed lg:flex-col lg:items-end lg:right-auto px-10 flex-shrink-0 py-10 right-0 text-gray-900"
     style=""
   >
     <a
