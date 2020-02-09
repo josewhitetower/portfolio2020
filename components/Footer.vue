@@ -5,6 +5,7 @@
   >
     <a
       v-for="soc in social"
+      :title="soc.title"
       :key="soc.link"
       :href="soc.link"
       :target="soc.icon.target ? soc.icon.target : '_blank'"
