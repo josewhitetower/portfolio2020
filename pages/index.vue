@@ -14,7 +14,14 @@
       <p
         class="text-gray-700 font-sans mt-4 lg:text-2xl md:text-2xl text-lg leading-loose"
       >
-        I am a Frontend Developer living in Hamburg, Germany. Currently enjoying
+        I am an
+        <nuxt-link
+          to="/experience"
+          title="Esperience"
+          class="font-semibold border-b hover:border-gray-900"
+          >experienced</nuxt-link
+        >
+        Frontend Developer living in Hamburg, Germany. Currently enjoying
         working at
         <a
           class="font-semibold border-b hover:border-gray-900"
@@ -23,14 +30,20 @@
           rel="noopener noreferrer nofollow"
           title="Spiegel Techlab"
           >Spiegel Techlab</a
-        >, creating and constantly learning amazing things I can incorporate to
+        >, creating and constantly learning amazing things. I also like to build
+        <nuxt-link
+          to="/projects"
+          title="Projects"
+          class="font-semibold border-b hover:border-gray-900"
+          >things</nuxt-link
+        >
+        for fun that later I can incorporate to my
         <nuxt-link
           to="/toolbox"
           title="Toolbox"
           class="font-semibold border-b hover:border-gray-900"
           >my toolbox</nuxt-link
-        >
-        .
+        >.
       </p>
     </div>
   </main>
