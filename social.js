@@ -2,21 +2,41 @@ export default [
   {
     title: 'Github',
     link: 'https://www.github.com/josewhitetower',
-    icon: 'github'
+    icon: {
+      name: 'github',
+      prefix: 'fab'
+    }
   },
   {
     title: 'Twitter',
     link: 'https://www.twitter.com/josewhitetower',
-    icon: 'twitter'
+    icon: {
+      name: 'twitter',
+      prefix: 'fab'
+    }
   },
   {
     title: 'LinkedIn',
-    link: 'https://www.twitter.com/josewhitetower',
-    icon: 'linkedin'
+    link: 'https://www.linkedin.com/in/jose-torreblanca-a62783124/',
+    icon: {
+      name: 'linkedin',
+      prefix: 'fab'
+    }
   },
   {
     title: 'Xing',
     link: 'https://www.twitter.com/josewhitetower',
-    icon: 'xing'
+    icon: {
+      name: 'xing',
+      prefix: 'fab'
+    }
+  },
+  {
+    title: 'Email',
+    link: 'mailto:josewhitetower@gmail.com',
+    icon: {
+      name: 'envelope',
+      prefix: 'fas'
+    }
   }
 ]

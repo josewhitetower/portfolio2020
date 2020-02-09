@@ -1,47 +1,36 @@
 <template>
-  <div class="container px-6 mt-10 md:mt-20 lg:mt-20 mx-auto">
-    <Header @open="isDrawerOpen = true" :routes="routes" />
-    <transition name="fade">
-      <Drawer
-        v-if="isDrawerOpen"
-        @close="isDrawerOpen = false"
-        :routes="routes"
-      />
-    </transition>
-    <transition name="fade">
-      <nuxt />
-    </transition>
+  <div class="flex flex-col h-full h-screen justify-between">
     <div
-      class="bottom-0 fixed left-0 h-64 flex-col items-end text-gray-900 px-10 hidden lg:flex"
-      style=""
+      class="container px-6 mt-10 md:mt-20 lg:mt-20 mx-auto mb-12 md:mb-20 lg:mb-2"
     >
-      <a
-        v-for="soc in social"
-        :key="soc.icon"
-        :href="soc.link"
-        class="hover:text-blue-600"
-        rel="noopener noreferrer nofollow"
-      >
-        <font-awesome-icon
-          :icon="['fab', `${soc.icon}`]"
-          class="cursor-pointer md:text-xl lg:text-2xl mt-1 mr-1 ml-auto mb-4"
+      <Header @open="isDrawerOpen = true" :routes="routes" />
+      <transition name="fade">
+        <Drawer
+          v-if="isDrawerOpen"
+          @close="isDrawerOpen = false"
+          :routes="routes"
         />
-      </a>
-      <span class="block border border-gray-600 h-64 self-center "></span>
+      </transition>
+      <transition name="fade">
+        <nuxt />
+      </transition>
     </div>
+    <Footer :social="social" />
   </div>
 </template>
 
 <script>
 import Drawer from '../components/Drawer'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 import routes from '../routes'
 import social from '../social'
 
 export default {
   components: {
     Drawer,
-    Header
+    Header,
+    Footer
   },
 
   data() {
