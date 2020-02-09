@@ -11,7 +11,7 @@
           :routes="routes"
         />
       </transition>
-      <transition name="fade">
+      <transition name="slideup">
         <nuxt />
       </transition>
     </div>
@@ -50,5 +50,13 @@ export default {
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
+}
+.slideup-enter-active,
+.slideup-leave-active {
+  transition: all 0.2s ease-in-out 0.2s;
+}
+.slideup-enter, .slideup-leave-to /* .slide-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  transform: translateY(40px);
 }
 </style>
