@@ -53,7 +53,7 @@ import experiences from '@/experiences'
 export default {
   head() {
     return {
-      title: 'Professional Experience'
+      title: 'Experience'
     }
   },
   data() {
