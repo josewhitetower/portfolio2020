@@ -25,7 +25,7 @@ export default [
   },
   {
     title: 'Xing',
-    link: 'https://www.twitter.com/josewhitetower',
+    link: 'https://www.xing.com/profile/Jose_Torreblanca/cv',
     icon: {
       name: 'xing',
       prefix: 'fab'
