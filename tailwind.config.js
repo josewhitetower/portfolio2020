@@ -7,8 +7,7 @@
 module.exports = {
   theme: {
     fontFamily: {
-      sans: ['Open Sans', 'sans-serif'],
-      bang: ['Bangers', 'cursive']
+      sans: ['Open Sans', 'sans-serif']
     }
   },
   variants: {},

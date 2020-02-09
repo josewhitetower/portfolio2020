@@ -5,8 +5,8 @@ export default [
     name: 'Home'
   },
   {
-    path: '/toolbox',
-    name: 'Toolbox'
+    path: '/skills',
+    name: 'Dev Skills'
   },
   {
     path: '/experience',

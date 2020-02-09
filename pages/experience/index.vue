@@ -2,8 +2,8 @@
   <main class="mt-40 md:mt-56 lg:mt-64">
     <div class="lg:flex md:block sm:block">
       <div class="w-2/3 mb-10 text-gray-900 mr-10">
-        <h1 class="md:text-3xl lg:text-4xl font-sans font-bang text-2xl mb-2">
-          professional experience
+        <h1 class="md:text-3xl lg:text-4xl font-sans font-black text-2xl mb-2">
+          Professional Experience
         </h1>
         <p class="font-sans tracking-tight mb-6">
           Download a copy of my CV below.

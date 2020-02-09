@@ -8,7 +8,7 @@
     <div
       class="md:text-center lg:text-center lg:mt-32 md:mt-24 mt-20 text-2xl md:px-20 lg:px-40"
     >
-      <h1 class="md:text-3xl lg:text-4xl font-sans font-bang text-gray-900">
+      <h1 class="md:text-3xl lg:text-4xl font-sans font-black text-gray-900">
         Hi, I'm José Torreblanca &#128075;&#127997;
       </h1>
       <p
@@ -42,7 +42,7 @@
           to="/toolbox"
           title="Toolbox"
           class="font-semibold border-b hover:border-gray-900"
-          >my toolbox</nuxt-link
+          >my dev skills</nuxt-link
         >.
       </p>
     </div>
