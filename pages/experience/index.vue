@@ -37,7 +37,7 @@
           </div>
           <div v-html="value.tasks" class="tasks text-gray-800 mb-2"></div>
           <div class="text-gray-900">
-            <span class="font-semibold">Keywords:</span>
+            <span class="font-semibold">Extras:</span>
             <span v-for="(keyword, index) in value.keywords" :key="keyword"
               >{{ keyword
               }}<span v-if="index !== value.keywords.length - 1">, </span></span
