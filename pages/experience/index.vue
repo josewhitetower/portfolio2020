@@ -35,7 +35,7 @@
             |
             <span>{{ value.duration }}</span>
           </div>
-          <div v-html="value.tasks" class="tasks text-gray-800 mb-2"></div>
+          <div v-html="value.tasks" class="rich text-gray-800 mb-2"></div>
           <div class="text-gray-900">
             <span class="font-semibold">Extras:</span>
             <span v-for="(keyword, index) in value.keywords" :key="keyword"

@@ -1,5 +1,5 @@
 @tailwind base;
-.tasks a {
+.rich a {
   @apply underline italic;
 }
 @tailwind components;
