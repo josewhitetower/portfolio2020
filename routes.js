@@ -6,7 +6,7 @@ export default [
   },
   {
     path: '/skills',
-    name: 'Dev Skills'
+    name: 'Skills'
   },
   {
     path: '/experience',

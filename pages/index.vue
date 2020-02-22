@@ -40,14 +40,14 @@
           class="font-semibold border-b hover:border-gray-900"
           >here</nuxt-link
         >
-        using the
+        using some
         <nuxt-link
           to="/skills"
-          title="Dev Skills"
+          title="Skills"
           class="font-semibold border-b hover:border-gray-900"
-          >tools</nuxt-link
+          >skills</nuxt-link
         >
-        I enjoy working with.
+        I've adopted and I enjoy working with.
       </p>
     </div>
   </main>
