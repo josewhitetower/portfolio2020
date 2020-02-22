@@ -18,6 +18,7 @@
             :title="tool.name"
             :href="tool.link"
             target="_blank"
+            class="mr-4"
             rel="noopener noreferrer nofollow"
           >
             <img
