@@ -9,15 +9,14 @@
       <p
         class="text-gray-700 font-sans mt-4 lg:text-2xl md:text-2xl text-lg leading-loose"
       >
-        I am an
+        I am a Frontend Developer with some
         <nuxt-link
           to="/experience"
           title="Esperience"
           class="font-semibold border-b hover:border-gray-900"
-          >experienced</nuxt-link
+          >experience</nuxt-link
         >
-        Frontend Developer living in Hamburg, Germany. Currently enjoying
-        working at
+        living in Hamburg, Germany. Currently enjoying working at
         <a
           class="font-semibold border-b hover:border-gray-900"
           href="https://www.spiegel-techlab.de"
@@ -25,20 +24,30 @@
           rel="noopener noreferrer nofollow"
           title="Spiegel Techlab"
           >Spiegel Techlab</a
-        >, creating and constantly learning amazing things. I also like to build
+        >, and before that at
+        <a
+          class="font-semibold border-b hover:border-gray-900"
+          href="https://www.dvinci.de/"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          title="Spiegel Techlab"
+          >d.vinci</a
+        >. I am passionate about using technology to solve problems and create
+        useful applications and some of my side (fun) projects are listed
         <nuxt-link
           to="/projects"
           title="Projects"
           class="font-semibold border-b hover:border-gray-900"
-          >things</nuxt-link
+          >here</nuxt-link
         >
-        for fun that later I can incorporate to my
+        using the
         <nuxt-link
           to="/skills"
           title="Dev Skills"
           class="font-semibold border-b hover:border-gray-900"
-          >my dev skills</nuxt-link
-        >.
+          >tools</nuxt-link
+        >
+        I enjoy working with.
       </p>
     </div>
   </main>
