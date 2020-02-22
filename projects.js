@@ -21,7 +21,7 @@ export default {
     title: 'Todo Vue Composition',
     type: 'Frontend',
     description:
-      "A Single Page Application to manage and filter tasks using the Vue.js composition API. Items can be dragged and will be storaged using the browser's local Storage. Deployed using <a href='https://www.netlify.com/' rel='nofoollow noopener' target='_blank' >Netlify</a>",
+      "A Single Page Application to manage and filter tasks using the Vue.js composition API. Items can be dragged and will be stored using the browser's local Storage. Deployed using <a href='https://www.netlify.com/' rel='nofoollow noopener' target='_blank' >Netlify</a>",
     stack: 'Vue.js, TailwindCSS, Local Storage',
     liveDemo: 'https://todo-vue-composition.netlify.com',
     sourceCode: 'https://github.com/josewhitetower/todo-vue-composition'
