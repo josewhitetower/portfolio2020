@@ -9,8 +9,14 @@
           Download a copy of my CV below.
         </p>
         <div class="flex text-gray-600">
-          <a href="" class="mr-4 hover:text-gray-900">Download 🇩🇪</a>
-          <a href="" class="hover:text-gray-900">Download 🇬🇧</a>
+          <a
+            href="https://drive.google.com/file/d/19GYfsy1a2vJjK66FExtSc5_fgeI-SP1o/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            class="mr-4 hover:text-gray-900"
+            >Download 🇩🇪</a
+          >
+          <a href="" class="hover:text-gray-900 hidden">Download 🇬🇧</a>
         </div>
       </div>
       <ul>
