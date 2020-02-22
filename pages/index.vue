@@ -1,10 +1,5 @@
 <template>
   <main class="mt-40 md:mt-48 lg:mt-48 lg:mb-12">
-    <img
-      src="~assets/imgs/jose.jpeg"
-      alt="Profile picture"
-      class="h-32 md:h-48 lg:h-56 w-32 md:w-48 lg:w-56 responsive rounded-full mx-auto shadow-xl"
-    />
     <div
       class="md:text-center lg:text-center lg:mt-32 md:mt-24 mt-20 text-2xl md:px-20 lg:px-40"
     >
