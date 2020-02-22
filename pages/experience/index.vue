@@ -2,22 +2,18 @@
   <main class="mt-40 md:mt-56 lg:mt-64">
     <div class="lg:flex md:block sm:block">
       <div class="w-2/3 mb-10 text-gray-900 mr-10">
-        <h1 class="md:text-3xl lg:text-4xl font-sans font-black text-2xl mb-2">
+        <h1 class="md:text-3xl lg:text-4xl font-sans font-black text-2xl mb-6">
           Professional Experience
         </h1>
-        <p class="font-sans tracking-tight mb-6">
-          Download a copy of my CV below.
-        </p>
-        <div class="flex text-gray-600">
-          <a
-            href="https://drive.google.com/file/d/19GYfsy1a2vJjK66FExtSc5_fgeI-SP1o/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            class="mr-4 hover:text-gray-900"
-            >Download 🇩🇪</a
-          >
-          <a href="" class="hover:text-gray-900 hidden">Download 🇬🇧</a>
-        </div>
+
+        <a
+          role="button"
+          href="https://drive.google.com/file/d/19GYfsy1a2vJjK66FExtSc5_fgeI-SP1o/view?usp=sharingnpm run dev"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          class="border border-blue-600 py-3 px-2 rounded-lg hover:bg-blue-600 hover:text-white"
+          >Download my CV 🇩🇪</a
+        >
       </div>
       <ul>
         <li
