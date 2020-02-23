@@ -3,6 +3,14 @@
     <div
       class="md:text-center lg:text-center lg:mt-32 md:mt-24 mt-20 text-2xl md:px-20 lg:px-40"
     >
+      <div class="flex justify-center mb-12">
+        <img
+          src="/icons/logo.svg"
+          alt="netlify"
+          class="h-64 mr-3"
+          style="animation: float 6s ease-in-out infinite;"
+        />
+      </div>
       <h1 class="md:text-3xl lg:text-4xl font-sans font-black text-gray-900">
         Hi, I'm José Torreblanca &#128075;&#127997;
       </h1>
@@ -58,9 +66,15 @@ export default {}
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
 }
-*/
 </style>
