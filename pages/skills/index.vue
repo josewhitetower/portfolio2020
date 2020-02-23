@@ -9,17 +9,9 @@
       <div>
         <h2 class="text-2xl font-semibold mb-2">Front End</h2>
         <div class="flex mb-4 ml-8 justify-around">
-          <img
-            src="/icons/html-5.svg"
-            alt="html5"
-            class="h-12 responsive mr-3"
-          />
-          <img src="/icons/css-3.svg" alt="css3" class="h-12 responsive mr-3" />
-          <img
-            src="/icons/javascript.svg"
-            alt="javascript"
-            class="h-12 responsive"
-          />
+          <img src="/icons/html-5.svg" alt="html5" class="h-12 mr-3" />
+          <img src="/icons/css-3.svg" alt="css3" class="h-12 mr-3" />
+          <img src="/icons/javascript.svg" alt="javascript" class="h-12" />
         </div>
         <p class="mb-4">
           HTML5, CCS3 and Javscript ES6 are newest versions of standard, core
@@ -28,12 +20,8 @@
           on every device.
         </p>
         <div class="flex mb-4 ml-8 justify-around">
-          <img src="/icons/vue.svg" alt="vue" class="h-12 responsive mr-3" />
-          <img
-            src="/icons/react.svg"
-            alt="react"
-            class="h-12 responsive mr-3"
-          />
+          <img src="/icons/vue.svg" alt="vue" class="h-12 mr-3" />
+          <img src="/icons/react.svg" alt="react" class="h-12 mr-3" />
         </div>
         <p class="mb-4">
           Vue.js and React.js are JavaScript Frameworks. Both, component based,
@@ -44,7 +32,7 @@
           <img
             src="/icons/tailwindcss.svg"
             alt="tailwindcss"
-            class="h-12 responsive mr-3"
+            class="h-12 mr-3"
           />
         </div>
         <p class="mb-12">
@@ -54,12 +42,8 @@
         </p>
         <h2 class="text-2xl font-semibold mb-2">Backend</h2>
         <div class="flex mb-4 ml-8 justify-around">
-          <img
-            src="/icons/nodejs.svg"
-            alt="nodejs"
-            class="h-12 responsive mr-3"
-          />
-          <img src="/icons/npm.svg" alt="npm" class="h-12 responsive mr-3" />
+          <img src="/icons/nodejs.svg" alt="nodejs" class="h-12 mr-3" />
+          <img src="/icons/npm.svg" alt="npm" class="h-12 mr-3" />
         </div>
         <p class="mb-12">
           Node.js is a JavaScript runtime that allows to write server side
@@ -68,21 +52,9 @@
         </p>
         <h2 class="text-2xl font-semibold mb-2">CI/CD</h2>
         <div class="flex mb-4 ml-8 justify-around">
-          <img
-            src="/icons/netlify.svg"
-            alt="netlify"
-            class="h-12 responsive mr-3"
-          />
-          <img
-            src="/icons/travis-ci.svg"
-            alt="travis"
-            class="h-12 responsive mr-3"
-          />
-          <img
-            src="/icons/docker-icon.svg"
-            alt="docker"
-            class="h-12 responsive"
-          />
+          <img src="/icons/netlify.svg" alt="netlify" class="h-12 mr-3" />
+          <img src="/icons/travis-ci.svg" alt="travis" class="h-12 mr-3" />
+          <img src="/icons/docker-icon.svg" alt="docker" class="h-12" />
         </div>
         <p class="mb-12">
           With Netlify, Travis and Docker continuous integration and continuous
@@ -91,7 +63,7 @@
         </p>
         <h2 class="text-2xl font-semibold mb-2">Version Control</h2>
         <div class="flex mb-4 ml-8 justify-around">
-          <img src="/icons/git.svg" alt="git" class="h-12 responsive mr-3" />
+          <img src="/icons/git.svg" alt="git" class="h-12 mr-3" />
         </div>
         <p>
           Git is a version control system for tracking changes in source code
