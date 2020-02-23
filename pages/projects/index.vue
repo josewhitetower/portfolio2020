@@ -12,7 +12,7 @@
           :key="key"
           class="mb-12 md:mb-20 lg:mb-20 font-sans"
         >
-          <h4 class="text-xl font-semibold text-gray-800 mb-2">
+          <h4 class="text-2xl font-semibold text-gray-800 mb-2">
             {{ project.title }}
           </h4>
           <div class="text-gray-600 mb-2">
@@ -20,10 +20,13 @@
               {{ project.type }}
             </span>
           </div>
-          <div
-            v-html="project.description"
-            class="rich text-gray-800 mb-2"
-          ></div>
+          <div class="flex flex-col">
+            <img :src="project.image" alt="netlify" class="self-start my-4" />
+            <div
+              v-html="project.description"
+              class="rich text-gray-800 mb-2"
+            ></div>
+          </div>
           <div class="text-gray-900 mb-2">
             <span class="font-semibold">Stack:</span>
             <span>{{ project.stack }}</span>
