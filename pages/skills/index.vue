@@ -8,7 +8,7 @@
       </div>
       <div>
         <h2 class="text-2xl font-semibold mb-2">Front End</h2>
-        <div class="flex mb-4 ml-8">
+        <div class="flex mb-4 ml-8 justify-around">
           <img
             src="/icons/html-5.svg"
             alt="html5"
@@ -27,7 +27,7 @@
           Frontend Developer, allowing to make websites works on every browser,
           on every device.
         </p>
-        <div class="flex mb-4 ml-8">
+        <div class="flex mb-4 ml-8 justify-around">
           <img src="/icons/vue.svg" alt="vue" class="h-12 responsive mr-3" />
           <img
             src="/icons/react.svg"
@@ -40,7 +40,7 @@
           facilitate the creation of interactive user interfaces and are
           perfectly capable of create Single Page Applications.
         </p>
-        <div class="flex mb-4 ml-8">
+        <div class="flex mb-4 ml-8 justify-around">
           <img
             src="/icons/tailwindcss.svg"
             alt="tailwindcss"
@@ -53,7 +53,7 @@
           Unlike any other framework, I still need to know CSS.
         </p>
         <h2 class="text-2xl font-semibold mb-2">Backend</h2>
-        <div class="flex mb-4 ml-8">
+        <div class="flex mb-4 ml-8 justify-around">
           <img
             src="/icons/nodejs.svg"
             alt="nodejs"
@@ -67,7 +67,7 @@
           allows running task in form of scripts.
         </p>
         <h2 class="text-2xl font-semibold mb-2">CI/CD</h2>
-        <div class="flex mb-4 ml-8">
+        <div class="flex mb-4 ml-8 justify-around">
           <img
             src="/icons/netlify.svg"
             alt="netlify"
@@ -90,7 +90,7 @@
           they are really convenient and with a strong community behid.
         </p>
         <h2 class="text-2xl font-semibold mb-2">Version Control</h2>
-        <div class="flex mb-4 ml-8">
+        <div class="flex mb-4 ml-8 justify-around">
           <img src="/icons/git.svg" alt="git" class="h-12 responsive mr-3" />
         </div>
         <p>

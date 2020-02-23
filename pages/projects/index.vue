@@ -21,7 +21,14 @@
             </span>
           </div>
           <div class="flex flex-col">
-            <img :src="project.image" alt="netlify" class="self-start my-4" />
+            <a
+              :href="project.liveDemo"
+              :title="project.title"
+              target="_blank"
+              rel="nofoollow noopener"
+            >
+              <img :src="project.image" alt="netlify" class="self-start my-4" />
+            </a>
             <div
               v-html="project.description"
               class="rich text-gray-800 mb-2"
