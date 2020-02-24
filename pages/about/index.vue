@@ -23,9 +23,9 @@
         <p class="mb-8 leading-relaxed">
           I was born and raised in the sunny island of
           <span class="font-semibold">Cuba 🏝</span> , where I was living for 26
-          years before moving to Germany with my significant other ❤. I can
-          speak German and English being pretty fluent in both languages
-          additionally to my mother tonge, Spanish.
+          years before moving to Germany with my significant other
+          &#10084;&#65039;. I can speak German and English being pretty fluent
+          in both languages additionally to my mother tonge, Spanish.
         </p>
         <p class="mb-8 leading-relaxed">
           I have worked with Perl, JavaScript, HTML, CSS and a bit of PHP during
