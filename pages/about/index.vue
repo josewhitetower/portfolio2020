@@ -30,7 +30,7 @@
         <p class="mb-8 leading-relaxed">
           I have worked with Perl, JavaScript, HTML, CSS and a bit of PHP during
           my career, but I consider myself a permanent learner. I enjoy watching
-          tutorials on Youtube and hacking (enhancing😉) solutions for it. I
+          tutorials on Youtube and hacking (enhancing😉) solutions for them. I
           belive in that german phrase that goes by:
           <span class="italic font-semibold">Übung macht den Meister</span>.
         </p>
