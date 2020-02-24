@@ -6,7 +6,7 @@
           About me
         </h1>
       </div>
-      <div class="text-xl">
+      <div>
         <p class="mb-8 leading-relaxed">
           <span class="font-semibold">Moin!</span> my name is José Torreblanca.
           I'm a Frontend Software Developer since I graduated from Informatic
