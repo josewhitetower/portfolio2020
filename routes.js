@@ -5,8 +5,8 @@ export default [
     name: 'Home'
   },
   {
-    path: '/skills',
-    name: 'Skills'
+    path: '/toolbox',
+    name: 'Toolbox'
   },
   {
     path: '/experience',
@@ -15,5 +15,9 @@ export default [
   {
     path: '/projects',
     name: 'Projects'
+  },
+  {
+    path: '/about',
+    name: 'About'
   }
 ]
