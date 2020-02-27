@@ -14,8 +14,8 @@ export default {
     image: '/auth.png',
     type: 'Full Stack',
     description:
-      'A web portal where users can register, and manage their accounts. The backend REST API can be consumed from websites, mobile apps, or any other web service and some integrations test are performed using <a href="https://www.npmjs.com/package/supertest" rel="nofoollow noopener" target="_blank" >Supertest</a>.',
-    stack: 'React.js, Redux, MaterializeCSS, Express.js, Supertest, Docker',
+      'A web portal where users can register, and manage their accounts. The backend REST API can be consumed from websites, mobile apps, or any other web service and some integrations test are performed using <a href="https://jestjs.io/" rel="nofoollow noopener" target="_blank" >Jest</a>.',	      'A web portal where users can register, and manage their accounts. The backend REST API can be consumed from websites, mobile apps, or any other web service and some integrations test are performed using <a href="https://www.npmjs.com/package/supertest" rel="nofoollow noopener" target="_blank" >Supertest</a>.',
+    stack: 'React.js, Redux, MaterializeCSS, Express.js, Jest, Docker',
     liveDemo: 'https://jt-user-manager.herokuapp.com/',
     sourceCode: 'https://github.com/josewhitetower/auth'
   },
