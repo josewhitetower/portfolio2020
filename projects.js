@@ -6,7 +6,7 @@ export default {
     description:
       "A web application that consumes movies from <a href='https://www.themoviedb.org/about' rel='nofoollow noopener' target='_blank' >The Movie Database (TMDb)</a> through a GraphQL <a href='https://jt-jetflix.appspot.com/graphql' rel='nofoollow noopener' target='_blank' >server</a >. It allows users to search, bookmark and save movies as favorites. Deployed usign the <a href='https://jt-jetflix.netlify.com/' rel='nofoollow noopener' target='_blank' >Netlify</a> platform CLI (it's never been easier).",
     stack: 'Nuxt.js, TailwindCSS, GraphQL',
-    liveDemo: 'https://jt-jetflix.surge.sh',
+    liveDemo: 'https://jt-jetflix.netlify.com/',
     sourceCode: 'https://github.com/josewhitetower/jetflix'
   },
   2: {
