@@ -7,7 +7,7 @@ export default {
     },
     duration: '09/2017 - Today',
     tasks:
-      '<p>As part of a cross-functional, dedicated and agile team, I contribute as developer in various digital publishing products (<a href="https://www.spiegel.de" target="_blank" rel="noopener noreferrer nofollow">Der Spiegel</a>, <a href="https://www.bento.de" target="_blank" rel="noopener noreferrer nofollow">Bento</a>, <a href="https://www.manager-magazin.de/premium/" target="_blank" rel="noopener noreferrer nofollow">Manager Magazin Premium</a>). Implemented responsive and functional layouts and worked in close cooperation with editors and mobile and backend developers. Mentor, assist, and review code for peer web developers.</p>',
+      '<p>As part of a cross-functional, dedicated and agile team, I contribute as developer in various digital publishing products (<a href="https://www.spiegel.de" target="_blank" rel="noopener noreferrer nofollow">Der Spiegel</a>, <a href="https://www.bento.de" target="_blank" rel="noopener noreferrer nofollow">Bento</a>, <a href="https://www.manager-magazin.de/" target="_blank" rel="noopener noreferrer nofollow">Manager Magazin</a>). Implemented responsive and functional layouts and worked in close cooperation with editors and mobile and backend developers. Mentor, assist, and review code for peer web developers.</p>',
     keywords: ['VueJs', 'TailwindCss', 'ComponentLoaderJs', 'Code Reviews']
   },
   2: {
