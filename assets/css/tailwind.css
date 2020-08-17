@@ -2,5 +2,25 @@
 .rich a {
   @apply underline italic;
 }
+
+.content * {
+  @apply mb-2
+}
+
+@screen md {
+  .content * {
+    @apply mb-4
+  }
+}
+.content img {
+  @apply mx-auto
+}
+
+pre {
+  @apply bg-gray-900 py-2 px-4 rounded
+}
+ code {
+   @apply text-sm text-white !important
+ }
 @tailwind components;
 @tailwind utilities;

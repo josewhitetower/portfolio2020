@@ -1,5 +1,5 @@
 <template>
-  <aside class="bg-gray-900 inset-0 fixed text-white z-10">
+  <aside class="bg-gray-900 inset-0 fixed text-white z-10 overflow-auto">
     <div
       class="container flex justify-between px-6 mt-10 md:mt-20 lg:mt-20 mx-auto"
     >
@@ -14,7 +14,7 @@
         class="cursor-pointer md:text-xl lg:text-2xl mt-1 mr-1 ml-auto"
       />
     </div>
-    <nav class="font-sans flex flex-col items-center justify-center mt-40">
+    <nav class="font-sans flex flex-col items-center justify-center mt-10">
       <transition name="slide">
         <ul v-if="visible" class="flex flex-col items-end">
           <li

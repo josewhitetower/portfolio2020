@@ -12,7 +12,7 @@
         </nuxt-link>
         <div v-if="!isHome" class="md:text-xl lg:text-2xl ">
           <span :class="homeFontColor" class="ml-4 mr-2">/</span>
-          <span>{{ routeName }}</span>
+          <span v-if="routeName">{{ routeName }}</span>
         </div>
       </div>
       <font-awesome-icon
@@ -44,9 +44,10 @@ export default {
       return this.isHome ? 'text-gray-900' : 'text-gray-600'
     },
     routeName() {
-      return this.routes.find(
+      const route = this.routes.find(
         (route) => route.path === this.$route.matched[0].path
-      ).name
+      )
+      return (route && route.name) || ''
     },
     isScrolled() {
       return !this.view.isAtTopOfPage && 'border-b'
