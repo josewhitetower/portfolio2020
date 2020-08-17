@@ -19,19 +19,19 @@ export default {
     liveDemo: 'https://jt-user-manager.herokuapp.com/',
     sourceCode: 'https://github.com/josewhitetower/auth'
   },
-  4: {
+  3: {
     title: 'Unpix',
-    image: '/todo.png',
+    image: '/unpix.png',
     type: 'Frontend',
     description:
       "A Single Page Application to to search images using the <a href='https://www.unplash.com/' rel='nofoollow noopener' target='_blank' >Uplash</a>  API. Designed with a Grid system similar to Instagram's. Photos can be saved as favorites and will be stored using the browser's local Storage. Deployed using <a href='https://www.netlify.com/' rel='nofoollow noopener' target='_blank' >Netlify</a>",
     stack: 'Vue.js, TailwindCSS, Local Storage',
     liveDemo: 'https://jt-unpix.netlify.app/',
     sourceCode: 'https://github.com/josewhitetower/unpix'
-  }
-  3: {
+  },
+  4: {
     title: 'Todo Vue Composition',
-    image: '/unpix.png',
+    image: '/todo.png',
     type: 'Frontend',
     description:
       "A Single Page Application to manage and filter tasks using the Vue.js composition API. Items can be dragged and will be stored using the browser's local Storage. Deployed using <a href='https://www.netlify.com/' rel='nofoollow noopener' target='_blank' >Netlify</a>",
