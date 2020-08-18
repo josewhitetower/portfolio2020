@@ -1,5 +1,6 @@
 ---
 role: Software Developer
+title: Software Developer
 from_date: 2016-11-01T17:08:27.114Z
 to_date: 2017-08-31T16:08:27.121Z
 keywords: Jira, Pair Programming, Javascript
