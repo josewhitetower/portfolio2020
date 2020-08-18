@@ -22,28 +22,31 @@
           class="mb-12 md:mb-20 lg:mb-20 font-sans"
         >
           <h4 class="text-xl font-semibold text-gray-800 mb-2">
-            {{ value.role }}
+            {{ value.title }}
           </h4>
           <div class="text-gray-600 mb-2">
             <a
-              :href="value.company.link"
-              :title="value.company.name"
+              :href="value.link"
+              :title="value.company"
               class="hover:text-gray-900"
               target="_blank"
               rel="noopener noreferrer nofollow"
             >
-              <span>{{ value.company.name }}</span>
+              <span>{{ value.company }}</span>
             </a>
             |
-            <span>{{ value.duration }}</span>
+            <span
+              >{{ formatDate(value.from_date) }} -
+              {{ value.to_date ? formatDate(value.to_date) : 'Today' }}
+            </span>
           </div>
-          <div v-html="value.tasks" class="rich text-gray-800 mb-2"></div>
+          <article
+            v-html="$md.render(value.task)"
+            class="rich text-gray-800 mb-2"
+          ></article>
           <div class="text-gray-900">
             <span class="font-semibold">Extras:</span>
-            <span v-for="(keyword, index) in value.keywords" :key="keyword"
-              >{{ keyword
-              }}<span v-if="index !== value.keywords.length - 1">, </span></span
-            >
+            <span>{{ value.keywords }}</span>
           </div>
         </li>
       </ul>
@@ -51,16 +54,24 @@
   </main>
 </template>
 <script>
-import experiences from '@/experiences'
 export default {
   head() {
     return {
       title: 'Experience'
     }
   },
-  data() {
+  async asyncData({ $content }) {
+    const experiences = await $content('experience')
+      .sortBy('from_date', 'desc')
+      .fetch()
     return {
       experiences
+    }
+  },
+  methods: {
+    formatDate(date) {
+      const options = { year: 'numeric', month: 'short' }
+      return new Date(date).toLocaleDateString('en', options)
     }
   }
 }

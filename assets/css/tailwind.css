@@ -1,10 +1,18 @@
 @tailwind base;
-.rich a {
+.rich a, article a {
   @apply underline italic;
 }
 
 article * {
-  @apply mb-2 text-base
+  @apply mb-2
+}
+
+article p {
+  @apply text-base
+}
+
+article code {
+  @apply text-sm
 }
 
 @screen md {
