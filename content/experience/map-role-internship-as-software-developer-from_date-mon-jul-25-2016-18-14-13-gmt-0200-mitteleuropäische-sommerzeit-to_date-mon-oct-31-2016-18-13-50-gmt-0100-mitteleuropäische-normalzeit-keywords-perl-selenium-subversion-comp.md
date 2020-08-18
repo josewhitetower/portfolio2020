@@ -1,5 +1,5 @@
 ---
-role: Internship as Software Developer
+role: Internship as Software Developers
 from_date: 2016-07-25T16:14:13.350Z
 to_date: 2016-10-31T17:13:50.903Z
 keywords: Perl, Selenium, Subversion
