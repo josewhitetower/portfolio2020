@@ -19,10 +19,10 @@
     "@nuxt/content": "^1.6.1",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/dotenv": "^1.4.0",
-    "@nuxtjs/markdownit": "^1.2.10",
     "@nuxtjs/pwa": "^3.0.0-0",
     "nuxt": "^2.14.3",
     "nuxt-fontawesome": "^0.4.0",
+    "prism-themes": "^1.4.0",
     "tailwindcss": "^1.2.0"
   },
   "devDependencies": {

@@ -1,6 +1,13 @@
 export default {
   mode: 'universal',
   target: 'static',
+  content: {
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-atom-dark.css'
+      }
+    }
+  },
   /*
    ** Headers of the page
    */
@@ -58,9 +65,6 @@ export default {
     // Doc: https://github.com/nuxt-commmunity/nuxt-tailwindcss
     // '@nuxtjs/tailwindcss'
   ],
-  markdownit: {
-    injected: true
-  },
   /*
    ** Nuxt.js modules
    */
@@ -72,7 +76,6 @@ export default {
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
     '@nuxt/content',
-    '@nuxtjs/markdownit',
 
     // 'nuxt-fontawesome'
     // font awesome

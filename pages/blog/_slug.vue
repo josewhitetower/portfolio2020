@@ -1,8 +1,8 @@
 <template>
-  <div class="mt-24">
+  <article class="mt-24">
     <h1>{{ post.title }}</h1>
-    <div v-html="$md.render(post.body)" class="content"></div>
-  </div>
+    <NuxtContent :document="post" class="" />
+  </article>
 </template>
 
 <script>
@@ -12,6 +12,7 @@ export default {
     try {
       post = await $content('blog', params.slug).fetch()
       // OR const article = await $content(`articles/${params.slug}`).fetch()
+      console.log(post)
     } catch (e) {
       error({ message: 'Blog Post not found' })
     }
