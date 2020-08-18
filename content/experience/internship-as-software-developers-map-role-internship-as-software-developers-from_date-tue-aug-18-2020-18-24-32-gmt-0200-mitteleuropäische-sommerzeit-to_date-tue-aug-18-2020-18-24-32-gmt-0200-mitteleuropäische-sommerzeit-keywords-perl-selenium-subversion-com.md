@@ -1,5 +1,5 @@
 ---
-role: Internship as Software Developers
+role: Internship as Software Developer
 from_date: 2020-08-18T16:24:32.576Z
 to_date: 2020-08-18T16:24:32.608Z
 keywords: Perl, Selenium, Subversion
