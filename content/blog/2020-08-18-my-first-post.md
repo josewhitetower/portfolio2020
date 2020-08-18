@@ -13,3 +13,7 @@ function greet() {
   console.log(a)
 }
 ```
+
+I also like to insert images
+
+![](/img/unpix.png)
