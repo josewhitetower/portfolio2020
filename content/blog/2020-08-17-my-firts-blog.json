@@ -1,6 +1,0 @@
-{
-  "date": "2020-08-17T19:50:53.977Z",
-  "title": "My first blog",
-  "description": "Let's start the journey",
-  "body": "Hi, this is my first **blog**.\n\n```javascript\nvar code = \"non existent\";\n\nfunction sayItLoud() {\n  console.log(code);\n}\n```\n\n\n\n![computer ](/img/unpix.png \"unpix\")"
-}
