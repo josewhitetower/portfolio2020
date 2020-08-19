@@ -17,10 +17,6 @@ export default [
     name: 'Projects'
   },
   {
-    path: '/blog',
-    name: 'Blog'
-  },
-  {
     path: '/about',
     name: 'About'
   }
