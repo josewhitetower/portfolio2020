@@ -4,7 +4,7 @@ title: Software Developer
 from_date: 2016-12-01T17:32:15.897Z
 to_date: 2017-08-31T16:32:15.909Z
 keywords: Jira, Pair Programming, Javascript
-company: d.vinci HR-Systems Gmb
+company: d.vinci HR-Systems GmbH
 link: https://www.dvinci.de/
 task: Implemented and helped in the conception of new functionalities for
   [d.vinci](https://www.dvinci.de/bewerbermanagement-software-dvinc) and also
