@@ -1,5 +1,5 @@
 <template>
-  <main class="mt-40 md:mt-56 lg:mt-64">
+  <main class="mt-40">
     <div class="lg:flex md:block sm:block">
       <div class="w-2/3 mb-10 text-gray-900 mr-10">
         <h1 class="md:text-3xl lg:text-4xl font-sans font-black text-2xl mb-6">

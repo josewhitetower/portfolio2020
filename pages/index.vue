@@ -1,5 +1,5 @@
 <template>
-  <main class="mt-40 md:mt-48 lg:mt-48 lg:mb-12">
+  <main class="mt-40 lg:mb-12">
     <div
       class="md:text-center lg:text-center lg:mt-32 md:mt-24 mt-20 text-2xl md:px-20 lg:px-40"
     >
