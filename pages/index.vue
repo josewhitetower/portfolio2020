@@ -20,6 +20,7 @@
         I am a Frontend Developer with some
         <nuxt-link
           to="/experience"
+          no-prefetch
           title="Esperience"
           class="font-semibold border-b hover:border-gray-900"
           >experience</nuxt-link
@@ -44,6 +45,7 @@
         useful applications and some of my side (fun) projects are listed
         <nuxt-link
           to="/projects"
+          no-prefetch
           title="Projects"
           class="font-semibold border-b hover:border-gray-900"
           >here</nuxt-link
@@ -51,6 +53,7 @@
         using some
         <nuxt-link
           to="/skills"
+          no-prefetch
           title="Skills"
           class="font-semibold border-b hover:border-gray-900"
           >skills</nuxt-link

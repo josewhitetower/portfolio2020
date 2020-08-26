@@ -25,6 +25,7 @@
             <nuxt-link
               :to="route.path"
               :exact="route.exact"
+              no-prefetch
               active-class="text-white"
               >{{ route.name }}</nuxt-link
             >
