@@ -15,13 +15,13 @@
           <span v-if="routeName">{{ routeName }}</span>
         </div>
       </div>
-      <font-awesome-icon
-        :icon="['fas', 'bars']"
-        @click="$emit('open')"
-        @keydown.enter="$emit('open')"
-        tabindex="0"
-        class="cursor-pointer md:text-xl lg:text-2xl"
-      />
+      <span tabindex="0" class="cursor-pointer md:text-xl lg:text-2xl">
+        <font-awesome-icon
+          :icon="['fas', 'bars']"
+          @click="$emit('open')"
+          @keydown.enter="$emit('open')"
+        />
+      </span>
     </div>
   </header>
 </template>
