@@ -42,13 +42,13 @@
           title="Spiegel Techlab"
           >d.vinci</a
         >. I am passionate about using technology to solve problems and create
-        useful applications and some of my side (fun) projects are listed
+        useful applications and some of my side (fun)
         <nuxt-link
           to="/projects"
           no-prefetch
           title="Projects"
           class="font-semibold border-b hover:border-gray-900"
-          >here</nuxt-link
+          >projects are listed here</nuxt-link
         >
         using some
         <nuxt-link
