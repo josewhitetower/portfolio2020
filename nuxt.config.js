@@ -8,6 +8,10 @@ export default {
       }
     }
   },
+  router: {
+    prefetchPayloads: false,
+    prefetchLinks: false
+  },
   /*
    ** Headers of the page
    */
