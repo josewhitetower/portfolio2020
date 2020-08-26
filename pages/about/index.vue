@@ -9,8 +9,8 @@
       <div>
         <p class="mb-8 leading-relaxed">
           <span class="font-semibold">Moin!</span> my name is José Torreblanca.
-          I'm a Frontend Software Developer since I graduated from Informatic
-          Science (B.Sc.) at
+          I'm a Frontend Software Developer graduated in Informatic Science
+          (B.Sc.) at
           <a
             href="https://www.uci.cu"
             class="underline italic"
