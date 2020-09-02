@@ -45,7 +45,7 @@
               :href="project.liveDemo"
               target="_blank"
               rel="nofoollow noopener"
-              class="py-1 px-2 rounded-lg border border-blue-600 hover:bg-blue-600 hover:text-white text-sm inline-block"
+              class="py-1 px-2 rounded-lg border border-purple-500 hover:bg-purple-500 hover:text-white text-sm inline-block"
             >
               Live Demo
             </a>
@@ -53,7 +53,7 @@
               :href="project.sourceCode"
               target="_blank"
               rel="nofoollow noopener"
-              class="py-1 px-2 rounded-lg border border-blue-600 hover:bg-blue-600 hover:text-white text-sm inline-block"
+              class="py-1 px-2 rounded-lg border border-purple-500 hover:bg-purple-500 hover:text-white text-sm inline-block"
             >
               Source Code
             </a>

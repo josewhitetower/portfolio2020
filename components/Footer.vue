@@ -9,7 +9,7 @@
       :key="soc.link"
       :href="soc.link"
       :target="soc.icon.target ? soc.icon.target : '_blank'"
-      class="hover:text-blue-600"
+      class="hover:text-purple-500"
       rel="noopener noreferrer nofollow"
     >
       <font-awesome-icon
