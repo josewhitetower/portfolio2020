@@ -12,7 +12,9 @@
           :key="key"
           class="mb-12 md:mb-20 lg:mb-20 font-sans"
         >
-          <h4 class="text-2xl font-semibold text-gray-800 mb-2">
+          <h4
+            class="text-2xl font-semibold text-gray-800 py-2 bg-white sticky top-84"
+          >
             {{ project.title }}
           </h4>
           <div class="text-gray-600 mb-2">
