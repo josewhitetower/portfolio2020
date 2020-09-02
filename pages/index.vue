@@ -6,7 +6,7 @@
       <div class="flex justify-center mb-12">
         <img
           src="/icons/logo.svg"
-          alt="netlify"
+          alt="logo"
           class="h-64 mr-3"
           style="animation: float 6s ease-in-out infinite;"
         />
