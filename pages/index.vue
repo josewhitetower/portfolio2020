@@ -34,7 +34,7 @@
           >S-KON eKontor 24 GmbH</a
         >,
         <a
-          class="font-semibold border-b hover:border-gray-900 line-through"
+          class="font-semibold border-b hover:text-gray-600 line-through"
           href="https://www.spiegel-techlab.de"
           target="_blank"
           rel="noopener noreferrer nofollow"
@@ -42,7 +42,7 @@
           >Spiegel Techlab</a
         >,
         <a
-          class="font-semibold border-b hover:border-gray-900 line-through"
+          class="font-semibold border-b hover:text-gray-600 line-through"
           href="https://www.dvinci.de/"
           target="_blank"
           rel="noopener noreferrer nofollow"
