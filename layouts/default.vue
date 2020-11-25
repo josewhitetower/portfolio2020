@@ -33,6 +33,12 @@ export default {
     Footer
   },
 
+  head: {
+    bodyAttrs: {
+      class: 'antialiased'
+    }
+  },
+
   data() {
     return {
       isDrawerOpen: false,
