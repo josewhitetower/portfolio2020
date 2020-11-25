@@ -27,14 +27,22 @@
         living in Hamburg, Germany. Currently enjoying working at
         <a
           class="font-semibold border-b hover:border-gray-900"
+          href="https://www.skon.de/"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          title="S-KON eKontor 24 GmbH"
+          >S-KON eKontor 24 GmbH</a
+        >,
+        <a
+          class="font-semibold border-b hover:border-gray-900 line-through"
           href="https://www.spiegel-techlab.de"
           target="_blank"
           rel="noopener noreferrer nofollow"
           title="Spiegel Techlab"
           >Spiegel Techlab</a
-        >, and before that at
+        >,
         <a
-          class="font-semibold border-b hover:border-gray-900"
+          class="font-semibold border-b hover:border-gray-900 line-through"
           href="https://www.dvinci.de/"
           target="_blank"
           rel="noopener noreferrer nofollow"
@@ -48,14 +56,6 @@
           class="font-semibold border-b hover:border-gray-900"
           >projects are listed here</nuxt-link
         >
-        using some
-        <nuxt-link
-          to="/skills"
-          title="Skills"
-          class="font-semibold border-b hover:border-gray-900"
-          >skills</nuxt-link
-        >
-        I've adopted and I enjoy working with.
       </p>
     </div>
   </main>
