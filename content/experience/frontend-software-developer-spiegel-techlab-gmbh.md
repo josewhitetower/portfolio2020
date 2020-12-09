@@ -2,7 +2,7 @@
 role: Frontend Software Developer
 title: Frontend Software Developer
 from_date: 2017-09-01T16:30:46.564Z
-to_date: ""
+to_date: 2020-12-31T16:30:46.564Z
 keywords: VueJs, TailwindCss, ComponentLoaderJS, Code Reviews
 company: Spiegel TechLab GmbH
 link: https://www.spiegel-techlab.de
