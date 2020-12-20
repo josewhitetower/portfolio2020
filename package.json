@@ -16,14 +16,12 @@
     "@fortawesome/free-brands-svg-icons": "^5.12.0",
     "@fortawesome/free-solid-svg-icons": "^5.12.0",
     "@fortawesome/vue-fontawesome": "^0.1.9",
-    "@nuxt/content": "^1.6.1",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/dotenv": "^1.4.0",
-    "@nuxtjs/markdownit": "^1.2.10",
     "@nuxtjs/pwa": "^3.0.0-0",
+    "@nuxtjs/sanity": "^0.4.2",
     "nuxt": "^2.14.3",
     "nuxt-fontawesome": "^0.4.0",
-    "prism-themes": "^1.4.0",
     "tailwindcss": "^1.7.6"
   },
   "devDependencies": {

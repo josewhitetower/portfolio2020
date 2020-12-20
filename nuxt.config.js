@@ -65,7 +65,9 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    // https://sanity.nuxtjs.org/quick-start
+    '@nuxtjs/sanity'
     // Doc: https://github.com/nuxt-commmunity/nuxt-tailwindcss
     // '@nuxtjs/tailwindcss'
   ],
@@ -82,9 +84,6 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
-    '@nuxt/content',
-    '@nuxtjs/markdownit',
-
     // 'nuxt-fontawesome'
     // font awesome
     [
