@@ -1,13 +1,6 @@
 export default {
   mode: 'universal',
   target: 'static',
-  content: {
-    markdown: {
-      prism: {
-        theme: 'prism-themes/themes/prism-atom-dark.css'
-      }
-    }
-  },
   router: {
     prefetchPayloads: false,
     prefetchLinks: false
@@ -60,6 +53,9 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [],
+  sanity: {
+    projectId: 'fgberi7f'
+  },
   /*
    ** Nuxt.js dev-modules
    */
