@@ -17,24 +17,24 @@
       </div>
       <ul>
         <li
-          v-for="(value, key) in experiences"
-          :key="key"
+          v-for="value in experiences"
+          :key="value._id"
           class="mb-12 md:mb-20 lg:mb-20 font-sans"
         >
           <h4
             class="text-xl font-semibold text-gray-800 py-2 bg-white sticky top-84"
           >
-            {{ value.title }}
+            {{ value.name }}
           </h4>
           <div class="text-gray-600 mb-2">
             <a
-              :href="value.link"
-              :title="value.company"
+              :href="value.company_url"
+              :title="value.company_name"
               class="hover:text-gray-900"
               target="_blank"
               rel="noopener noreferrer nofollow"
             >
-              <span>{{ value.company }}</span>
+              <span>{{ value.company_name }}</span>
             </a>
             |
             <span
@@ -42,10 +42,9 @@
               {{ value.to_date ? formatDate(value.to_date) : 'Today' }}
             </span>
           </div>
-          <article
-            v-html="$md.render(value.task)"
-            class="rich text-gray-800 mb-2"
-          ></article>
+          <article class="rich text-gray-800 mb-2">
+            <SanityContent :blocks="value.description" />
+          </article>
           <div class="text-gray-900">
             <span class="font-semibold">Extras:</span>
             <span>{{ value.keywords }}</span>
@@ -56,19 +55,23 @@
   </main>
 </template>
 <script>
+import { groq } from '@nuxtjs/sanity'
+import { SanityContent } from '@nuxtjs/sanity/dist/sanity-content'
+
+const query = groq`*[_type == "experience"] | order(from_date desc) {name,company_name,company_url,description,from_date,to_date,_id,keywords}`
 export default {
   head() {
     return {
       title: 'Experience'
     }
   },
-  async asyncData({ $content }) {
-    const experiences = await $content('experience')
-      .sortBy('from_date', 'desc')
-      .fetch()
-    return {
-      experiences
-    }
+  components: { SanityContent },
+  data: () => ({
+    experiences: []
+  }),
+  async fetch() {
+    // eslint-disable-next-line nuxt/no-this-in-fetch-data
+    this.experiences = await this.$sanity.fetch(query)
   },
   methods: {
     formatDate(date) {
