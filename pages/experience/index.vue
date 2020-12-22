@@ -39,7 +39,7 @@
             |
             <span
               >{{ formatDate(value.from_date) }} -
-              {{ value.to_date ? formatDate(value.to_date) : 'Today' }}
+              {{ formatDate(value.to_date) }}
             </span>
           </div>
           <article class="rich text-gray-800 mb-2">
@@ -100,7 +100,7 @@ export default {
   methods: {
     formatDate(date) {
       const options = { year: 'numeric', month: 'short' }
-      return new Date(date).toLocaleDateString('en', options)
+      return date ? new Date(date).toLocaleDateString('en', options) : 'Today'
     }
   }
 }
