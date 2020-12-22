@@ -22,6 +22,7 @@
     "@nuxtjs/sanity": "^0.4.2",
     "nuxt": "^2.14.3",
     "nuxt-fontawesome": "^0.4.0",
+    "sanity-blocks-vue-component": "^0.1.0",
     "tailwindcss": "^1.7.6"
   },
   "devDependencies": {

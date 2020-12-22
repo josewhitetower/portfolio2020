@@ -43,7 +43,10 @@
             </span>
           </div>
           <article class="rich text-gray-800 mb-2">
-            <SanityContent :blocks="value.description" />
+            <PortableText
+              :blocks="value.description"
+              :serializers="serializers"
+            />
           </article>
           <div class="text-gray-900">
             <span class="font-semibold">Extras:</span>
@@ -56,7 +59,7 @@
 </template>
 <script>
 import { groq } from '@nuxtjs/sanity'
-import { SanityContent } from '@nuxtjs/sanity/dist/sanity-content'
+import PortableText from 'sanity-blocks-vue-component'
 
 const query = groq`*[_type == "experience"] | order(from_date desc) {name,company_name,company_url,description,from_date,to_date,_id,keywords}`
 export default {
@@ -65,10 +68,31 @@ export default {
       title: 'Experience'
     }
   },
-  components: { SanityContent },
+  components: { PortableText },
   data: () => ({
     experiences: []
   }),
+  computed: {
+    serializers() {
+      return {
+        marks: {
+          link: ({ children, mark }) => {
+            // Read https://css-tricks.com/use-target_blank/
+            const { blank, href } = mark
+            return blank ? (
+              <a href={href} target="_blank" rel="noopener" title={children}>
+                {children}
+              </a>
+            ) : (
+              <a href={href} title={children}>
+                {children}
+              </a>
+            )
+          }
+        }
+      }
+    }
+  },
   async fetch() {
     // eslint-disable-next-line nuxt/no-this-in-fetch-data
     this.experiences = await this.$sanity.fetch(query)
