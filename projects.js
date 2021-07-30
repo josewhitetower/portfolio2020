@@ -10,14 +10,14 @@ export default {
     sourceCode: 'https://github.com/josewhitetower/jetflix'
   },
   2: {
-    title: 'Auth',
-    image: '/auth.png',
-    type: 'Full Stack',
+    title: 'Excercise Tracker',
+    image: '/exercise.png',
+    type: 'Backend',
     description:
-      "A web portal where users can register, and manage their accounts. The backend REST API can be consumed from websites, mobile apps, or any other web service and some integrations test are performed using <a href='https://jestjs.io/' rel='nofoollow noopener' target='_blank' >Jest</a>.",
-    stack: 'React.js, Redux, MaterializeCSS, Express.js, Jest, Docker',
-    liveDemo: 'https://jt-user-manager.herokuapp.com/',
-    sourceCode: 'https://github.com/josewhitetower/auth'
+      "A REST API written in <a href='https://golang.org/' rel='nofoollow noopener' target='_blank' >Golang</a> that allows to manage user and exercises logs. Documented using Postman's documentation  <a href='https://www.postman.com/api-documentation-tool/' rel='nofoollow noopener' target='_blank'>Tool</a>.",
+    stack: 'Golang',
+    liveDemo: 'https://documenter.getpostman.com/view/2984199/TzseJm3P',
+    sourceCode: 'https://github.com/josewhitetower/jt-exercise-tracker-mic'
   },
   3: {
     title: 'Unpix',
@@ -30,13 +30,13 @@ export default {
     sourceCode: 'https://github.com/josewhitetower/unpix'
   },
   4: {
-    title: 'Todo Vue Composition',
-    image: '/todo.png',
-    type: 'Frontend',
+    title: 'Auth',
+    image: '/auth.png',
+    type: 'Full Stack',
     description:
-      "A Single Page Application to manage and filter tasks using the Vue.js composition API. Items can be dragged and will be stored using the browser's local Storage. Deployed using <a href='https://www.netlify.com/' rel='nofoollow noopener' target='_blank' >Netlify</a>",
-    stack: 'Vue.js, TailwindCSS, Local Storage',
-    liveDemo: 'https://todo-vue-composition.netlify.com',
-    sourceCode: 'https://github.com/josewhitetower/todo-vue-composition'
+      "A web portal where users can register, and manage their accounts. The backend REST API can be consumed from websites, mobile apps, or any other web service and some integrations test are performed using <a href='https://jestjs.io/' rel='nofoollow noopener' target='_blank' >Jest</a>.",
+    stack: 'React.js, Redux, MaterializeCSS, Express.js, Jest, Docker',
+    liveDemo: 'https://jt-user-manager.herokuapp.com/',
+    sourceCode: 'https://github.com/josewhitetower/auth'
   }
 }
