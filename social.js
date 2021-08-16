@@ -17,7 +17,8 @@ export default [
   },
   {
     title: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/jose-torreblanca-a62783124/',
+    link:
+      'https://www.linkedin.com/in/jose-torreblanca-%F0%9F%91%8D%F0%9F%8F%BD-a62783124/',
     icon: {
       name: 'linkedin',
       prefix: 'fab'
