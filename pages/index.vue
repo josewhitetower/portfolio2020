@@ -27,6 +27,14 @@
         living in Hamburg, Germany. Currently enjoying working at
         <a
           class="font-semibold border-b hover:border-gray-900"
+          href="https://www.demodern.de/"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          title="Demodern GmbH"
+          >Demodern GmbH</a
+        >,
+        <a
+          class="font-semibold border-b hover:border-gray-900 line-through"
           href="https://www.skon.de/"
           target="_blank"
           rel="noopener noreferrer nofollow"
