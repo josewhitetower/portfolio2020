@@ -24,8 +24,8 @@ export default {
     image: '/unpix.png',
     type: 'Frontend',
     description:
-      "A Single Page Application to to search images using the <a href='https://www.unplash.com/' rel='nofoollow noopener' target='_blank' >Uplash</a>  API. Designed with a Grid system similar to Instagram's. Photos can be saved as favorites and will be stored using the browser's local Storage. Deployed using <a href='https://www.netlify.com/' rel='nofoollow noopener' target='_blank' >Netlify</a>",
-    stack: 'Vue.js, TailwindCSS, Local Storage',
+      "A Single Page Application to to search images using the <a href='https://www.unplash.com/' rel='nofoollow noopener' target='_blank' >Uplash</a>  API. Designed with a Grid system similar to Instagram's. Photos can be saved as favorites and will be stored using the browser's local Storage, i18n is also applied. Deployed using <a href='https://www.netlify.com/' rel='nofoollow noopener' target='_blank' >Netlify</a>",
+    stack: 'Vue.js, TailwindCSS, Local Storage, i18n',
     liveDemo: 'https://jt-unpix.netlify.app/',
     sourceCode: 'https://github.com/josewhitetower/unpix'
   },
