@@ -25,8 +25,16 @@
           >experience</nuxt-link
         >
         living in Hamburg, Germany. Currently enjoying working at
-        <a
+         <a
           class="font-semibold border-b hover:border-gray-900"
+          href="https://www.moia.io/"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          title="MOIA GmbH"
+          >MOIA GmbH</a
+        >,
+        <a
+          class="font-semibold border-b hover:border-gray-900 line-through"
           href="https://www.demodern.de/"
           target="_blank"
           rel="noopener noreferrer nofollow"
