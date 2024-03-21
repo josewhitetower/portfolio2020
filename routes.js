@@ -5,10 +5,6 @@ export default [
     name: 'Home'
   },
   {
-    path: '/experience',
-    name: 'Experience'
-  },
-  {
     path: '/projects',
     name: 'Projects'
   },
